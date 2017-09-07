@@ -8,3 +8,5 @@
 #after_initialize happens at model.new
 #after_create happens after create
 #self just references a single item in the model
+#set defaults self.main_image ||= "http://placehold.it/600x400" double pipes asks if main image nil then do else not.
+#concerns are used when something needs shared between models - has to deal with data - 
