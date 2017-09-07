@@ -5,3 +5,6 @@
 # Lecture 65 at 8:52 shows how to breakdown the logical way to decide belongs_to and has_many 
 #foreign key references another table
 # #66 around 14:39 explains how to scope showing Portfolio.angular (angular being the scope)
+#after_initialize happens at model.new
+#after_create happens after create
+#self just references a single item in the model
