@@ -10,3 +10,10 @@
 #self just references a single item in the model
 #set defaults self.main_image ||= "http://placehold.it/600x400" double pipes asks if main image nil then do else not.
 #concerns are used when something needs shared between models - has to deal with data - 
+# find_by brings back only one object .where brings back a collection or all items
+#luke.books.any? true or false lets you know if there are any books with true or false
+# lecture 74 has_many through also talks about pluck
+#includes method wraps all queries in on  Books.included(:something, :somthingelse)
+#single responsiblity rule = class should have a singular responsible
+# module is like modular -
+# virtual attribute #82 lecture
