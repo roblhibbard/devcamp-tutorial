@@ -14,3 +14,5 @@
 #luke.books.any? true or false lets you know if there are any books with true or false
 # lecture 74 has_many through also talks about pluck
 #includes method wraps all queries in on  Books.included(:something, :somthingelse)
+#single responsiblity rule = class should have a singular responsible
+# module is like modular -
