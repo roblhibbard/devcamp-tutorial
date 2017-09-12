@@ -16,3 +16,4 @@
 #includes method wraps all queries in on  Books.included(:something, :somthingelse)
 #single responsiblity rule = class should have a singular responsible
 # module is like modular -
+# virtual attribute #82 lecture
