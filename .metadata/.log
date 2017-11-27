@@ -1496,3 +1496,20 @@ java.lang.IllegalArgumentException: Argument not valid
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+
+!ENTRY com.aptana.org.eclipse.tm.terminal 4 0 2017-11-26 22:40:42.699
+!MESSAGE -19
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: -19
+	at org.eclipse.tm.internal.terminal.model.TerminalTextDataStore.ensureLineLength(TerminalTextDataStore.java:165)
+	at org.eclipse.tm.internal.terminal.model.TerminalTextDataStore.setChars(TerminalTextDataStore.java:195)
+	at org.eclipse.tm.internal.terminal.model.TerminalTextDataFastScroll.setChars(TerminalTextDataFastScroll.java:200)
+	at org.eclipse.tm.internal.terminal.model.TerminalTextData.setChars(TerminalTextData.java:133)
+	at org.eclipse.tm.internal.terminal.model.SynchronizedTerminalTextData.setChars(SynchronizedTerminalTextData.java:83)
+	at org.eclipse.tm.internal.terminal.emulator.VT100EmulatorBackend.appendString(VT100EmulatorBackend.java:306)
+	at org.eclipse.tm.internal.terminal.emulator.VT100Emulator.displayNewText(VT100Emulator.java:1085)
+	at org.eclipse.tm.internal.terminal.emulator.VT100Emulator.processNonControlCharacters(VT100Emulator.java:1067)
+	at org.eclipse.tm.internal.terminal.emulator.VT100Emulator.processNewText(VT100Emulator.java:311)
+	at org.eclipse.tm.internal.terminal.emulator.VT100Emulator.processText(VT100Emulator.java:251)
+	at org.eclipse.tm.internal.terminal.emulator.VT100TerminalControl$1.run(VT100TerminalControl.java:434)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
