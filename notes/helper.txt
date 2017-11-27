@@ -1,0 +1,2 @@
+helper methods are regular ruby methods
+.html_safe is when you want to let html stand that has been sanitized

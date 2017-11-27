@@ -17,3 +17,6 @@
 #single responsiblity rule = class should have a singular responsible
 # module is like modular -
 # virtual attribute #82 lecture
+# views lecture 93 and 94 show how to setup partial for navigation - 95 how to send data to partials, css class by designating
+# <%= location %> then utilizing this in the render call 
+#view helper method
