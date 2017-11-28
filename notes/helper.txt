@@ -4,3 +4,5 @@ when should use helper - if view using has logic where alot of if else case stat
 _nav.html.erb
 
 what is a content helper? content helper methods can be used inside views - 
+convention over configuration - rails follows conventions - 
+Lecture 99 and 100 show how to use render for index funtion - able to remove each in the call
